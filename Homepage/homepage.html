@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wise Galaxy Library</title>
+    <link rel="stylesheet" href="homepage.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Wise Galaxy</h1>
+        
+        <div class="header-controls">
+            <label class="theme-switch" for="themeToggle">
+                <input type="checkbox" id="themeToggle">
+                <div class="slider round"></div>
+            </label>
+            <button id="menuBtn" class="menu-btn" aria-label="Toggle navigation menu">&#9776;</button>
+        </div>
+    </header>
+
+    <nav id="navMenu">
+        <a href="#hero" class="nav-link">Home</a>
+        <a href="#features" class="nav-link">Catalog</a>
+        <a href="#features" class="nav-link">Borrowing</a>
+        <a href="#features" class="nav-link">Reservations</a>
+        <a href="#features" class="nav-link">Account</a>
+    </nav>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h2>Discover Endless Knowledge</h2>
+                <p>Explore our vast collection of books, journals, and digital resources</p>
+                <button id="exploreBtn">Start Exploring</button>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="feature">
+                <h3>Digital Library</h3>
+                <p>Access thousands of e-books and academic journals from anywhere</p>
+            </div>
+            <div class="feature">
+                <h3>Study Spaces</h3>
+                <p>Book modern study rooms equipped with latest technology</p>
+            </div>
+            <div class="feature">
+                <h3>Research Help</h3>
+                <p>Get expert assistance from our librarians and research guides</p>
+            </div>
+            <div class="feature">
+                <h3>Events</h3>
+                <p>Join our workshops, author talks, and special collections tours</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="homepage.js"></script>
+</body>
+</html>
